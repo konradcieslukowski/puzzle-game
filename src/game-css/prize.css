@@ -1,0 +1,40 @@
+.prize {
+  background-color: #2cc6fc;
+  z-index: 1001;
+  border: solid 1px #ff7400;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2vw;
+}
+
+.prize--fadein {
+  visibility: hidden;
+  -webkit-animation-name: fadein;
+  -moz-animation-name: fadein;
+  -o-animation-name: fadein;
+  animation-name: fadein;
+  animation-duration: 2s;
+  z-index: 1003;
+}
+
+@keyframes fadein {
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
+
+.prize--hide {
+  visibility: hidden;
+}
+
+.prize img {
+  height: auto;
+  width: 45%;
+}

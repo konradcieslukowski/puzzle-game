@@ -1,0 +1,112 @@
+.cursor--blocked {
+  cursor: default;
+}
+
+.game-window, .game-results-window, .prize, .time-end {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 5px;
+  font-family: 'Open Sans';
+}
+
+.game {
+  position: absolute;
+  height: 93%;
+  width: 93%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 0;
+}
+
+.game-task-meritum, .game-blockade, .timer-alert {
+  width: 100%;
+  height: 75%;
+  position: absolute;
+  background-color: #ffffff;
+
+}
+
+.game-task-meritum {
+  border-radius: 0px 0px 5px 5px;
+  border: solid 1px #ff7400;
+  box-sizing: border-box;
+  border-top: none;
+}
+
+.tip__background {
+  background-color: #f2f2f2;
+}
+
+.game-task-manager {
+  width: 100%;
+  height: 7.5%;
+  position: absolute;
+  top: 85%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: solid 1px #ff7400;
+  background-image: linear-gradient(to bottom, #2cc6fc, #009bff);
+}
+
+.game-task-manager .game-blockade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1003;
+  opacity: 0.75;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 0 30px #000;
+}
+
+.game-start-buttons {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.game-player-result-container {
+  text-align: left;
+  text-transform: uppercase;
+  border: 1px solid white;
+  width: auto;
+}
+
+.game-blockade {
+  z-index: 1001;
+  opacity: 0;
+}
+
+.game-task-meritum .game-blockade {
+  top: 0;
+  height: 100%;
+}
+
+.pointer {
+  cursor: pointer
+}
+
+.no-pointer {
+  cursor: default !important;
+}
+
+.invisible {
+  opacity: 0 !important;
+}
+
+.visible {
+  opacity: 1;
+}

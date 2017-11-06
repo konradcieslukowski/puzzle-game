@@ -1,0 +1,17 @@
+{
+  "model": "puzzle",
+  "poziomy":
+  [
+    {
+      "czas_na_rozwiązanie": 90,
+      "dźwięk": true,
+      "podpowiedź": true,
+      "polecenie": "Solve the puzzle",
+      "ile_kolumn": 5,
+      "ile_rzędów": 3,
+      "obraz": [
+        "castle.jpg"
+      ]
+    }
+  ]
+}

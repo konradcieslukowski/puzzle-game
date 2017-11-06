@@ -1,0 +1,125 @@
+.button--alignment {
+    cursor: pointer;
+    text-align: center;
+    display: table;
+}
+
+.button__content--alignment {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.button__image {
+    height: 100%;
+    width: 100%;
+}
+
+.game-start-buttons {
+    z-index: 1002;
+}
+
+.game-start-buttons span {
+    padding: 3px 8px;
+}
+
+.button--start, .button--reset {
+    font-size: 1.3vw;
+    font-weight: bold;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    color: #ff7400;
+    height: 66%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button--start {
+    width: auto;
+}
+
+.button--reset {
+    width: auto;
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.show-block {
+    display: block;
+}
+
+.show-table {
+    display: table;
+}
+
+.button--start:hover, .button--reset:hover {
+    background-color: #ff7400;
+    color: #ffffff;
+}
+
+.wrapper--game-triggers {
+    height: 100%;
+    width: 3.5%;
+    top: 3.5%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.results-trigger, .tip-trigger {
+    width: 100%;
+    height: 4.7%;
+    background: #FFFFFF;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #ff7400;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.results-trigger {
+    border-radius: 0 0 5px 0;
+}
+
+.tip-trigger {
+    height: 100%;
+    border-radius: 0 5px 0 0;
+}
+
+.tip-trigger__blockade {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 0 30px #000;
+}
+
+.tip-trigger__blockade--hide {
+    display: none;
+}
+
+.tip-trigger--active {
+    background-color: #ff7400;
+}
+
+.game-trigger img {
+    height: 100%;
+    width: 100%;
+}
+
+
+@media (min-width: 1000px) {
+    .button--start, .button--reset, .button__content--font-class-vh, .button__content--font-class-vw {
+        font-size: 18px;
+    }
+}
